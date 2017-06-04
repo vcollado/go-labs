@@ -22,7 +22,7 @@ func accumulate(coll []int, fn Accumulator) []int {
 	return result
 }
 
-// RunAccumulate task
-func RunAccumulate(coll []int, fn Accumulator) []int {
+// Accumulate given a collection applying an accumulator
+func Accumulate(coll []int, fn Accumulator) []int {
 	return accumulate(coll, fn)
 }
