@@ -23,4 +23,7 @@ func main() {
 	fmt.Println(tasks.Accumulate([]int{25, 5, 3}, tasks.Square))
 	// output:
 	// [625 25 9]
+
+	// acronym
+	fmt.Println(tasks.Acronym("I Am Your Gopher!"))
 }
