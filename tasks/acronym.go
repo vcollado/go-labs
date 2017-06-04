@@ -1,3 +1,5 @@
+// Convert a phrase to its acronym.
+
 package tasks
 
 import (
