@@ -1,4 +1,4 @@
-package tests
+package test
 
 import (
 	"reflect"
@@ -14,7 +14,7 @@ func TestAccumulateWithSquare(t *testing.T) {
 	}{
 		{[]int{1, 2, 3}, []int{1, 4, 9}},
 		{[]int{3, 2, 5}, []int{9, 4, 25}},
-		{[]int{0, 25, 12}, []int{0, 621, 144}},
+		{[]int{0, 25, 12}, []int{0, 625, 144}},
 	}
 
 	for _, c := range cases {

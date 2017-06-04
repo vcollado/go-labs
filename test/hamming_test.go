@@ -1,4 +1,4 @@
-package tests
+package test
 
 import (
 	"testing"
@@ -22,7 +22,7 @@ func TestHamming(t *testing.T) {
 		got := tasks.Hamming(c.in[0], c.in[1])
 
 		if got != c.want {
-			t.Errorf("Accumulate(%v) == %v, want %v", c.in, got, c.want)
+			t.Errorf("Hamming(%v) == %v, want %v", c.in, got, c.want)
 		}
 	}
 }
