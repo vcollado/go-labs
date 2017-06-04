@@ -7,3 +7,5 @@
 * compare slices: 
     * [https://stackoverflow.com/a/15312182](https://stackoverflow.com/a/15312182)
 
+* pass function by reference, and define types based on function prot.
+    * [https://stackoverflow.com/questions/3601796/](https://stackoverflow.com/questions/3601796/)
