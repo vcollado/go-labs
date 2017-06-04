@@ -3,13 +3,13 @@ package main
 import (
 	"fmt"
 
-	"github.com/vcollado/exercism"
+	"github.com/vcollado/tasks"
 )
 
 func main() {
 	var dna1, dna2 string = "GAGCCTACTAACGGGAT", "CATCGTAATGACGGCCT"
 
-	hammingDistance := exercism.CalculateHammingDistance(dna1, dna2)
+	hammingDistance := tasks.Hamming(dna1, dna2)
 
 	fmt.Println(dna1)
 	fmt.Println(dna2)
