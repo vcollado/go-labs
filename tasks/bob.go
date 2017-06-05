@@ -15,27 +15,27 @@ func buildSentenceChecker(token string) sentenceIs {
 	}
 }
 
-// Nil will talk with us
-func Nil(sentence string) string {
+// Bob will talk with us
+func Bob(sentence string) string {
 
 	sentenceIsQuestion := buildSentenceChecker("?")
 	sentenceIsYell := buildSentenceChecker("!")
-	var nilResponse string
+	var bobResponse string
 
 	switch {
 	case len(sentence) == 0:
-		nilResponse = "Està bé, enrotlla't tiu"
+		bobResponse = "Fine. Be that way!'"
 		break
 	case sentenceIsQuestion(sentence):
-		nilResponse = "De debò? no ho sabia..."
+		bobResponse = "Sure."
 		break
 	case sentenceIsYell(sentence):
-		nilResponse = "Ay.. Ay.. M'està montant un malt rotllo a la via pública... m'estic possant paranoic"
+		bobResponse = "Whoa, chill out!"
 		break
 	default:
-		nilResponse = "El que tu diguis"
+		bobResponse = "Whatever."
 		break
 	}
 
-	return nilResponse
+	return bobResponse
 }

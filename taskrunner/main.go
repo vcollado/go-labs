@@ -27,13 +27,13 @@ func main() {
 	// acronym
 	fmt.Println(tasks.Acronym("I Am Your Gopher!"))
 
-	// Nil
-	p1 := "Ey Nil, bon dia"
-	fmt.Println(p1, tasks.Nil(p1))
-	p2 := "Saps que ens faran fora del pis si no paguem les factures?"
-	fmt.Println(p2, tasks.Nil(p2))
-	p3 := "Perdoni, voster és el llogater d'aquesta finca no?!"
-	fmt.Println(p3, tasks.Nil(p3))
-	p4 := ""
-	fmt.Println(p4, tasks.Nil(p4))
+	// Bob
+	p1 := "How are you?"
+	fmt.Println(p1, tasks.Bob(p1))
+	p2 := "Shut up!"
+	fmt.Println(p2, tasks.Bob(p2))
+	p3 := ""
+	fmt.Println(p3, tasks.Bob(p3))
+	p4 := "hi"
+	fmt.Println(p4, tasks.Bob(p4))
 }
