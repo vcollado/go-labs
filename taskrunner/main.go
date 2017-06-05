@@ -26,6 +26,8 @@ func main() {
 
 	// acronym
 	fmt.Println(tasks.Acronym("I Am Your Gopher!"))
+	// output:
+	// IAYG
 
 	// Bob
 	p1 := "How are you?"
@@ -39,4 +41,6 @@ func main() {
 
 	// Leap year
 	fmt.Println(tasks.Lapyear(1993))
+	// output:
+	// false
 }
