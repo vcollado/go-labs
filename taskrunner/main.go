@@ -36,4 +36,7 @@ func main() {
 	fmt.Println(p3, tasks.Bob(p3))
 	p4 := "hi"
 	fmt.Println(p4, tasks.Bob(p4))
+
+	// Leap year
+	fmt.Println(tasks.Lapyear(1993))
 }
