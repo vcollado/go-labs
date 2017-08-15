@@ -1,5 +1,4 @@
-// Nil is a lackadaisical teenager. In conversation, his responses are very limited.
-// https://ca.wikipedia.org/wiki/Els_joves
+// Bob is a lackadaisical teenager. In conversation, his responses are very limited.
 
 package tasks
 
